@@ -7,4 +7,4 @@ Natalie Delgado Mora <br>
 Benjamin <br>
 Link video: https://aula.usm.cl/pluginfile.php/6994529/mod_resource/content/1/video1943571039.mp4 <br>
 <br>
-#[📘 Wiki Oficial](https://github.com/Itz-oji/GRUPO6-2025-PROYINF/wiki)
+# [📘 Wiki Oficial](https://github.com/Itz-oji/GRUPO6-2025-PROYINF/wiki)

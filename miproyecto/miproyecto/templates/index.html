@@ -1,0 +1,99 @@
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <title>Men&uacute;</title>
+        <meta charset="utf-8">
+        <style>
+            .p1 {
+                font-family: 'Roboto', sans-serif;
+            }
+
+            #clima {
+                position: absolute;
+                top: 115px; 
+                right: 25px; 
+                padding:10px 60px 10px 60px;
+                background-color: #a8ced6;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                font-family: 'Roboto', sans-serif;
+                max-width: 400px;
+                color: #333;
+            }
+
+            #clima h3 {
+                font-size: 1.2em;
+                color: #666;
+                text-align: right;
+                margin: 0;
+            }
+
+            #clima .main-info {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            #clima .main-info img {
+                width: 60px;
+                height: 60px;
+            }
+
+            #clima .main-info .temp {
+                font-size: 2.5em;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+            }
+
+            #clima .main-info .temp sup {
+                font-size: 0.5em;
+                margin-left: 5px;
+                color: #666;
+            }
+
+            #clima .details {
+                margin-top: 10px;
+                font-size: 0.9em;
+                color: #666;
+            }
+
+            #clima .details div {
+                margin-top: 5px;
+            }
+
+            #weather {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        
+        {% include "barra.html" %}
+
+        <div style="position: absolute; top: 400px; right: 900px;">
+            <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+            <div id="g_id_onload"
+                data-client_id="554264286769-9u7v0k3rl1agp6ikm1dlbjbv88daj6o4.apps.googleusercontent.com"
+                data-login_uri="http://localhost:8000/login/"
+                data-auto_prompt="false">
+            </div>
+
+            <div class="g_id_signin"
+                data-type="standard"
+                data-size="large"
+                data-theme="outline"
+                data-text="sign_in_with"
+                data-shape="rectangular"
+                data-logo_alignment="left">
+            </div>
+
+        </div>
+
+    </body>
+</html>
+{% endblock %}

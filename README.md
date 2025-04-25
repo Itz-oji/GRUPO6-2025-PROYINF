@@ -10,8 +10,8 @@
 ---
 ## Requerimientos
 El programa esta siendo probado y ejecutado en el simbolo del sistema correspondiente a Windows 10 pro
-- El programa esta escrito con python 3.11.1
-- se utilizo django 5.1.1
+- El programa esta escrito con python 3.12.6
+- se utilizo django 5.1.4
 ---
 ## Uso
 Para correr el programa es necesario tener instalado la libreria django con los comandos
